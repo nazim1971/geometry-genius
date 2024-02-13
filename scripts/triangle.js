@@ -1,7 +1,4 @@
-function calculateTriangleArea(nums){
-    // if(typeof nums !== 'number'){
-    //     prompt(alert('Type only Number'))
-    // }
+function calculateTriangleArea(){
    const triangleBaseInput = document.getElementById('triangle-base');
    const triangleBaseText = triangleBaseInput.value;
    const base = parseFloat(triangleBaseText);
